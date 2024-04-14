@@ -10,7 +10,6 @@ bool getPixelState(int y, int x) {
 void setup() {
     arduboy.begin();
     arduboy.clear();
-    arduboy.setFrameRate(30);
     arduboy.allPixelsOn(true);
 }
 
