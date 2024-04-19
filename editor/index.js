@@ -1,6 +1,6 @@
 console.log("Hello World!");
 
-// the possible vendor/product IDs for the Arduboy
+// the possible vendor/product IDs for the Arduboy (This is just the VID/PID for the arduino leonardo board)
 const filters = [
     { vendorId: 0x2341, productId: 0x8036 }
 ];
